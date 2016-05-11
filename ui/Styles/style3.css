@@ -1,0 +1,232 @@
+body{
+    background-color:#1b1b1b;
+    width:100%;
+    margin: auto;
+
+}
+html, body{
+	overflow-x: hidden; /* prevents horizontal scroll bars */
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
+	height: 100%; /* fixes focus scrolling in Safari (OS X) */
+
+}
+a:hover{
+    opacity:0.5;
+}
+
+#container{
+    margin: auto;
+    width: 970px;
+
+
+}
+a{
+
+
+ text-decoration:none;
+
+}
+
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    font-size:0;
+    height:0;
+    visibility:hidden;
+}
+.clearfix { display:block; }
+
+#cont-header{
+    width: 100%;
+    background-color:#ffffff;
+    position: fixed;
+    z-index: 99;
+}
+
+header{
+  width:970px;
+  height:100px;
+  margin: 0 auto;
+
+}
+
+
+header #Logo{
+    margin-top:17px;
+    float:left;
+
+
+
+}
+header #TextMenu{
+
+    margin-left: 882px;
+    margin-top: -38px;
+    float: left;
+    font-family: 'museo_sans500';
+
+}
+header #MenuIcon{
+   margin-top: -40px;
+    float: right;
+
+
+}
+.Menu{
+    width:400px;
+    margin: auto;
+    display:none;
+
+}
+
+.Menu li{
+    color:#ffffff;
+    size:20px;
+
+}
+
+
+#imgEtapa {
+      margin-top:100px;
+    width:100%;
+
+
+
+
+
+ }
+ .IntroT {
+
+     position:relative;
+    margin-top:-100px;
+
+    width:100%;
+
+}
+
+
+#nombreEtapa{
+    color:#fff;
+    font-family:'museo_sans500_italic';
+    font-size:31;
+    margin-left:40px;
+
+
+}
+#fecha{
+    color:#fff;
+    font-family: 'museo_sans700';
+    font-size:55;
+
+}
+
+#Titulo{
+    font-family: 'museo_sans500';
+    color: #c0c0c0;
+    font-size: 40.3px;
+    line-height: 1.125;
+    margin-bottom: 20px;
+}
+
+#Intro1{
+
+    width: 471px;
+    font-family: 'museo_sans300';
+    color: #c0c0c0;
+    font-size: 16px;
+    line-height: 24px;
+    float: left;
+    text-align: justify;
+}
+
+#Intro2{
+   margin-left: 10px;
+    font-family: 'museo_sans300';
+    color: #c0c0c0;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    width: 471;
+    float: right;
+
+
+
+}
+
+#Texto{
+    font-family: 'museo_sans300';
+    color: #c0c0c0;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    width:974;
+    margin-top:50px;
+}
+
+#Texto2{
+    font-family: 'museo_sans300';
+    color: #c0c0c0;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    width:974;
+    margin-top:450px;
+}
+
+
+#Imagen{
+    margin-top:20px;
+}
+
+#Imagenes{
+    margin-top:12px;
+}
+
+
+#Imagenes2{
+    margin-top:40px;
+    float:left;
+}
+
+#img2,#img3{
+
+    margin-left:10px;
+
+}
+
+#SigEtapa{
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 340;
+    color: #bbb;
+    font-family:'museo_sans500';
+    font-size:16px;
+}
+#SiguienteEtapa, a{
+    color: #bbb;
+    font-family:'museo_sans500';
+    font-size:16px;
+}
+
+.Actividades{
+    margin-bottom: -50px;
+}
+
+.Actividad1{
+    margin-left: 730;
+    margin-top: 70;
+    margin-bottom: -60px;
+}
+
+.Actividad2{
+
+    margin-left: 800;
+    margin-top: 20px;
+
+}
+
+.Volver{
+    margin-left: -90px;
+}
+

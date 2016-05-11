@@ -1,0 +1,46 @@
+{
+  "name": "MemoriaYLegado",
+  "version": "0.4.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron ./app",
+    "pack": "build",
+    "dist": "build",
+    "release": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "build": {
+    "app-bundle-id": "org.proyectoshoa.app",
+    "app-category-type": "public.app-category.graphics-design",
+    "osx": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron-builder": "^3.17.1",
+    "electron-prebuilt": "^1.0.1"
+  }
+}
