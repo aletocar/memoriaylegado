@@ -42,5 +42,8 @@
   "devDependencies": {
     "electron-builder": "^3.17.1",
     "electron-prebuilt": "^1.0.1"
+  },
+  "dependencies": {
+    "open": "0.0.5"
   }
 }

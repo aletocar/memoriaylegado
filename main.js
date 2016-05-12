@@ -1,4 +1,6 @@
 const electron = require('electron')
+
+const open = require('open')
 // Module to control application life.
 const app = electron.app
 // Module to create native browser window.
@@ -21,6 +23,16 @@ function createWindow () {
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
     mainWindow = null
+  })
+
+
+  //Obtains de contents of what is going on in the main window
+  var webContents = mainWindow.webContents
+
+  webContents.on('new-window', function(event, url){
+    event.preventDefault()
+    console.log('abre en página nueva: ' + url )
+    open(url)
   })
 }
 
