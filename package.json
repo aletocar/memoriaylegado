@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "postinstall": "install-app-deps",
-    "start": "npm install && electron ./app",
+    "start": "npm install && electron .",
     "pack": "build",
     "dist": "build",
     "release": "build"
