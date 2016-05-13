@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm install && electron ./app",
     "pack": "build",
-    "dist": "build"
+    "dist": "build",
+    "dist:linux": "build --platform linux --arch all"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,12 @@
     "app-category-type": "public.app-category.graphics-design",
     "asar": false,
     "linux": {
-      "compression":"gz"
+      "compression": "gz"
     }
-    },
+  },
+  "directories":{
+    "output": "app/dist"
+  },
   "devDependencies": {
     "electron-builder": "^3.17.1",
     "electron-prebuilt": "^1.0.2"
