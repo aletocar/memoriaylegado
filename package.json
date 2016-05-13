@@ -6,8 +6,8 @@
   "scripts": {
     "start": "npm install && electron ./app",
     "pack": "build",
-    "dist": "build",
-    "dist:linux": "build --platform linux --arch all"
+    "dist": "npm run dist:linux32",
+    "dist:linux32": "build --platform linux --arch ia32"
   },
   "repository": {
     "type": "git",
