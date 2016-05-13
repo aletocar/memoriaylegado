@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Legado</title>
+        <meta name="description" content="Fullscreen Layout with Page Transitions" />
+        <meta name="keywords" content="fullscreen layout, boxes, responsive, page transitions, css transitions, jquery, portfolio, template" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" href="Legado/css/component.css" />
+        <!-- <link href="Legado/fonts/stylesheet.css" rel="stylesheet" /> -->
+        <script src="Legado/js/modernizr.custom.js"></script>
+
+        <style>
+            #cont-header{
+                width: 100%;
+                background-color:#000;
+                position: relative;
+                z-index: 99;
+            }
+            header{
+                width:970px;
+                height:55px;
+                margin: 0 auto;
+            }
+            header #MenuIcon{
+                margin-top: 10px;
+                float: right;
+                margin-left:700px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="cont-header">
+            <header id="encabezado">
+                <a href=index.html><img id="MenuIcon" src="Legado/images/boton.png"/></a>
+            </header>
+        </div>
+        <div class="container">
+            <div id="bl-main" class="bl-main">
+                <section>
+                    <div class="bl-box">
+                        <img src="Legado/images/derechos.png">
+                    </div>
+                    <div class="bl-content">
+                        <img src="Legado/images/tituloDdhh.png" style="margin-left: 230px; margin-top: 20px;"/>
+                        <p>La organizaci&oacute;n Youth For Human Rights (J&oacute;venes por los Derechos Humanos) nos ense&ntilde;a algunos de nuestros derechos fundamentales por medio de breves cortometrajes. Conocerlos y trabajar para que sean respetados es responsabilidad de todos.</p>
+                        <video  width="100%" height="100%" controls>
+                            <source src="Legado/derechos_humanos.mp4" type="video/mp4"/>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <span class="bl-icon bl-icon-close"></span>
+                </section>
+                <section id="bl-work-section">
+                    <div class="bl-box">
+                        <img src="Legado/images/bulling.png"/>
+                    </div>
+                    <div class="bl-content">
+                        <H2>BULLYING Y ROLES</h2>
+                        <video width="100%" height="100%" controls>
+                            <source src="Legado/30octh264.mp4" type="video/mp4"/>
+                            Your browser does not support the video tag.
+                        </video>
+                        <ul id="bl-work-items">
+                            <li data-panel="panel-1"><a href="#"><img src="Legado/imagenes_bullying/roles/victimario.png" /></a></li>
+                            <li data-panel="panel-2"><a href="#"><img src="Legado/imagenes_bullying/roles/complice.png" /></a></li>
+                            <li data-panel="panel-3"><a href="#"><img src="Legado/imagenes_bullying/roles/indiferente.png" /></a></li>
+                            <li data-panel="panel-4"><a href="#"><img src="Legado/imagenes_bullying/roles/victima.png" /></a></li>
+                            <li data-panel="panel-5"><a href="#"><img src="Legado/imagenes_bullying/roles/rescatador.png" /></a></li>
+                        </ul>
+                        <p class ="Type" id="Type"> </p>
+                        <p>En la vida real, tal como suced&iacute;a en el Holocausto (salvando las distancias), permanentemente estamos posicion&aacute;ndonos en alguno de estos personajes y adoptamos algunas de estas posturas ante actos de violencia o discriminaci&oacute;n que suceden a nuestro alrededor.<br>Te pedimos que te tomes un tiempo para responder con sinceridad.
+                            <br>¿Qué rol ocup&aacute;s habitualmente ante este tipo de situaciones?
+                            <br>¿Qué rol te gustar&iacute;a ocupar?
+                            <br>¿Qué rol/roles consider&aacute;s peligrosos para la construcci&oacute;n de una sociedad mejor?
+                        </p>
+                    </div>
+                    <span class="bl-icon bl-icon-close"></span>
+                </section>
+                <section>
+                    <div class="bl-box">
+                        <img src="Legado/images/historia.png">
+                    </div>
+                    <div class="bl-content">
+                        <h2>Mensaje de un sobreviviente</h2>
+                        <p>Como parte del legado del Holocausto, presentamos la siguiente carta que escribi&oacute; un director de un liceo (sobreviviente del Holocausto) dirigida a los docentes previo al inicio de cursos.
+                        </p>
+                        <article> 
+                            <h3>QUERIDO PROFESOR:</h3>
+                            <p>
+
+Soy un sobreviviente de un campo de concentraci&oacute;n.<br>
+Mis ojos vieron lo que ning&uacute;n ser humano deber&iacute;a testimoniar:<br>
+c&aacute;maras de gas construidas por ingenieros ilustres,<br>
+ni&ntilde;os envenenados por m&eacute;dicos altamente especializados.<br>
+Reci&eacute;n nacidos asesinados por enfermeras diplomadas,<br>
+mujeres y beb&eacute;s quemados por gente formada en escuelas, liceos y universidades. <br> <br>
+
+Por eso querido profesor, dudo de la educaci&oacute;n, y le formulo un pedido:<br>
+ayude a sus estudiantes a volverse humanos.<br>
+Su esfuerzo, profesor, nunca debe producir monstruos eruditos y cultos,<br>
+sic&oacute;patas y Eichmanns educados.<br>
+Leer y escribir son importantes, solamente si est&aacute;n al servicio <br>
+de hacer a nuestros j&oacute;venes seres m&aacute;s humanos.</p>
+                        </article>
+                    </div>
+                    <span class="bl-icon bl-icon-close"></span>
+                </section>
+                <div class="bl-panel-items" id="bl-panel-work-items">
+                    <div data-panel="panel-1">
+                        <div>
+                            <img src="Legado/imagenes_bullying/roles/victimario.png" />
+                            <h3>Victimario</h3>
+                            <p>Aquel que causa el da&ntilde;o a un tercero en un momento determinado.</p>
+                        </div>
+                    </div>
+                    <div data-panel="panel-2">
+                        <div>
+                            <img src="Legado/imagenes_bullying/roles/complice.png" />
+                            <h3>C&oacute;mplice</h3>
+                            <p>Aquel que frente a una situaci&oacute;n apoya a y colabora con el victimario.</p>
+                        </div>
+                    </div>
+                    <div data-panel="panel-3">
+                        <div>
+                            <img src="Legado/imagenes_bullying/roles/indiferente.png" />
+                            <h3>Indiferente</h3>
+                            <p>Aquel que por omisi&oacute;n permite que la situaci&oacute;n transcurra inalterada.</p>
+                        </div>
+                    </div>
+                    <div data-panel="panel-4">
+                        <div>
+                            <img src="Legado/imagenes_bullying/roles/victima.png" />
+                            <h3>V&iacute;ctima</h3>
+                            <p>Aquella persona que sufre un da&ntilde;o por acci&oacute;n u omisi&oacute;n de un tercero.</p>
+                        </div>
+                    </div>
+                    <div data-panel="panel-5">
+                        <div>
+                            <img src="Legado/imagenes_bullying/roles/rescatador.png" />
+                            <h3>Rescatador</h3>
+                            <p>Aquel que decide actuar frente a una situaci&oacute;n desigual para contrarrestarla.</p>
+                        </div>
+                    </div>
+                    <nav>
+                        <span class="bl-next-work">&gt;Siguiente Rol</span>
+                        <span class="bl-icon bl-icon-close"></span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="Legado/js/boxlayout.js"></script>
+        <script>
+            $(function() {
+                Boxlayout.init();
+            });
+        </script>
+    </body>
+</html>

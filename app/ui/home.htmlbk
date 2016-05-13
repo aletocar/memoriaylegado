@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Home</title>
+  <meta name="home" content="Home de la aplicacion"/>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="fonts/stylesheet.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+   <link href="Styles/common.css" rel="stylesheet" />
+  <!-- Modernizr -->
+
+
+</head>
+
+
+<body>
+  <div class="text-center">
+    <img class="margin-top70 logo-img" src="Header/logo_index.png"/>
+    <div class="container-home">
+      <span> "La igualdad comienza cuando reconocemos que todos tenemos el derecho a ser diferentes"</span>
+    </div>
+  </div>
+  <div class="text-center">
+    <div class="container-left">
+      <a href='index.html'><button class="button-home app">IR A LA APLICACI&Oacute;N</button></a>
+    </div>
+    <div class="conatiner-right">
+      <button class="button-home tutorial">VER TUTORIAL</button>
+    </div>
+  </div>
+
+
+  
+</body>
+</html>
