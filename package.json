@@ -7,41 +7,25 @@
     "postinstall": "install-app-deps",
     "start": "npm install && electron .",
     "pack": "build",
-    "dist": "build",
-    "release": "build"
+    "dist": "build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/aletocar/memoriaylegado"
   },
   "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/aletocar/memoriaylegado/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://aletocar.github.io/memoriaylegado",
   "build": {
     "app-bundle-id": "org.proyectoshoa.app",
-    "app-category-type": "public.app-category.graphics-design",
-    "osx": {
-      "contents": [
-        {
-          "x": 410,
-          "y": 150,
-          "type": "link",
-          "path": "/Applications"
-        },
-        {
-          "x": 130,
-          "y": 150,
-          "type": "file"
-        }
-      ]
-    }
+    "app-category-type": "public.app-category.graphics-design"
   },
   "devDependencies": {
     "electron-builder": "^3.17.1",
-    "electron-prebuilt": "^1.0.1"
+    "electron-prebuilt": "^1.0.2"
   },
   "dependencies": {
     "open": "0.0.5"

@@ -1,0 +1,102 @@
+
+.container{
+    width:857px;
+    margin:auto;
+
+}
+
+
+.fotoUsuario{
+    margin-left:264px;
+    margin-top: 40px;
+}
+
+.nombreUsuario{
+
+    margin-left: 170px;
+    width: 131px;
+    height: 40px;
+    background-image: url(cuadro_nombre.png);
+    padding-left: 27px;
+    font-family: 'Museo Sans 300';
+    font-size:10pt;
+
+
+
+}
+.apellidoUsuario{
+
+
+    width: 131px;
+    height: 40px;
+    background-image: url(cuadro_apellido.png);
+    padding-left: 27px;
+    font-family: 'Museo Sans 300';
+    font-size:10pt;
+
+
+}
+
+.liceoUsuario{
+
+    margin-left: 170px;
+    margin-top:8px;
+    width: 265px;
+    height: 40px;
+    background-image: url(cuadro_liceo.png);
+    padding-left: 27px;
+    font-family: 'Museo Sans 300';
+    font-size:10pt;
+
+
+}
+.mailUsuario{
+
+    margin-left: 170px;
+    margin-top:8px;
+    width: 265px;
+    height: 40px;
+    background-image: url(cuadro_email.png);
+    padding-left: 27px;
+    font-family: 'Museo Sans 300';
+    font-size:10pt;
+
+
+}
+.contraUsuario{
+
+    margin-left: 170px;
+    margin-top:8px;
+    width: 265px;
+    height: 40px;
+    background-image: url(cuadro_contrasena.png);
+    padding-left: 27px;
+    font-family: 'Museo Sans 300';
+    font-size:10pt;
+
+
+}
+
+.tick{
+    margin-left: 145;
+    margin-top: 70px;
+}
+.comandoRecordar{
+}
+.Recordar{
+margin-left: 10;
+}
+
+.ingresar{
+    margin-left: 37;
+}
+
+
+.nombreape{
+    margin-top:30px;
+}
+
+.cerrar{
+    margin-left: 460px;
+    height: 0px;
+}

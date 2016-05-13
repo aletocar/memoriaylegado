@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title>ANA FRANK</title>
+        <meta name="ANA FRANK" content="Pagina principal ANA FRANK"/>
+       <link href="fonts/stylesheet.css" rel="stylesheet" />
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <style>
+      body {
+        width:100%;
+        height:100%;
+
+        background-color:rgb(58, 57, 57);
+        margin: 0;
+        padding: 0px;
+         z-index:-30;
+      }
+      #myCanvas{
+        margin: auto;
+      }
+      #Canvas{
+
+            margin-bottom:200px;
+            margin-top:70px;
+       }
+       #texto{
+            font-family: 'museo_sans500';
+            color:  #ffffff;
+            font-size: 45px; /* Approximation due to font substitution */
+            line-height: 24px; /* Approximation due to font substitution */
+            width: 259px;
+            margin-top:100px;
+
+       }
+       #container{
+            width: 975px;
+            margin:auto;
+        }
+        #fondo{
+            z-index:-10;
+            position:absolute;
+            margin-top:-100px;
+
+        }
+        .footer{
+    height:100px;
+    width:100%;
+    background-color:#000000;
+    margin-top:40px;
+}
+        #flecha1{
+            position:absolute;
+            z-index:10;
+            margin-top: -410px;
+            margin-left: 590px;
+        }
+        #btnVolver{
+    margin-top: -30px;
+margin-left: 787px;
+}
+        a:hover{
+    opacity:0.5;
+}
+    </style>
+  </head>
+  <body>
+    <div id="fondo">
+        <img src="fotosAnaCollage/annefrank1.png">
+    </div>
+    <div id="container">
+    <div id="texto">
+        ANA FRANK
+
+    </div>
+
+    <div id="btnVolver">
+              <a href="index.html">  <img id="volver" src="fotosAnaCollage/boton_volver.png"> </a>
+            </div>
+
+         <div id="Canvas">
+    <canvas id="myCanvas" width="975" height="1307"></canvas>
+    </div>
+
+    <div id="flecha1">
+       <a href="AnaFrankDespliegue.html#destino4"> <img src="fotosAnaCollage/flecha_der.png"> </a>
+    </div>
+
+
+    </div>
+      <div class="footer"></div>
+    <script>
+
+
+
+
+
+      var canvas = document.getElementById('myCanvas');
+      var c1 = canvas.getContext('2d');
+      var imageObj1 = new Image();
+
+      imageObj1.onload = function() {
+        c1.drawImage(imageObj1, 0, 0);
+      };
+      imageObj1.src = 'fotosAnaCollage/group1.png';
+     var c2 = canvas.getContext('2d');
+      c2.fillStyle='#e94b40';
+      c2.fillRect(162,0,162,164);
+      var cText1 = canvas.getContext('2d');
+      cText1.font="20px Georgia";
+      cText1.fillStyle=' #fff';
+      cText1.fillText("Hello World!",165,50);
+      var c3 = canvas.getContext('2d');
+        var imageObj2 = new Image();
+
+      imageObj2.onload = function() {
+        c3.drawImage(imageObj2, 324, 0);
+      };
+      imageObj2.src = 'fotosAnaCollage/group2.jpg';
+      var c4 = canvas.getContext('2d');
+        var imageObj3 = new Image();
+
+      imageObj3.onload = function() {
+        c3.drawImage(imageObj3, 649, 0);
+      };
+      imageObj3.src = 'fotosAnaCollage/group3.jpg';
+      var c5 = canvas.getContext('2d');
+      c5.fillStyle= "#fff";
+      c5.fillRect(0,164,324,327);
+      var c6 = canvas.getContext('2d');
+      c6.fillStyle= "#363636";
+      c6.fillRect(324,200,324,126);
+      var c7 = canvas.getContext('2d');
+      c7.fillStyle= "#4c8086";
+      c7.fillRect(648,200,327,126);
+      var c8 = canvas.getContext('2d');
+        var imageObj4 = new Image();
+
+      imageObj4.onload = function() {
+        c4.drawImage(imageObj4, 324, 326);
+      };
+      imageObj4.src = 'fotosAnaCollage/padreana.jpg';
+      var c9 = canvas.getContext('2d');
+      c9.fillStyle='#e94b40';
+      c9.fillRect(486,326,163,164);
+      var c10 = canvas.getContext('2d');
+      c10.fillStyle='#7a6c4d';
+      c10.fillRect(648,326,165,164);
+      var c11 = canvas.getContext('2d');
+      var imageObj5 = new Image();
+
+      imageObj5.onload = function() {
+        c11.drawImage(imageObj5, 814, 326);
+      };
+      imageObj5.src = 'fotosAnaCollage/diario.jpg';
+    var c12 = canvas.getContext('2d');
+      c12.fillStyle='#4c8086';
+      c12.fillRect(0,491,162,164);
+    var c13 = canvas.getContext('2d');
+      c13.fillStyle='#0e2a38';
+      c13.fillRect(0,655,162,164);
+    var c14 = canvas.getContext('2d');
+      var imageObj6 = new Image();
+
+      imageObj6.onload = function() {
+        c6.drawImage(imageObj6, 162, 491);
+      };
+      imageObj6.src = 'fotosAnaCollage/mapaescondite.jpg';
+    var c15 = canvas.getContext('2d');
+      var imageObj7 = new Image();
+
+      imageObj7.onload = function() {
+        c7.drawImage(imageObj7, 486, 491);
+      };
+      imageObj7.src = 'fotosAnaCollage/img1.jpg';
+    var c16 = canvas.getContext('2d');
+      c16.fillStyle='#7b6d4e';
+      c16.fillRect(486,655,164,164);
+    var c17 = canvas.getContext('2d');
+      c17.fillStyle='#0a3348';
+      c17.fillRect(648,491,164,164);
+    var c18 = canvas.getContext('2d');
+      c18.fillStyle='#7b6d4e';
+      c18.fillRect(813,491,162,164);
+
+   var imageObj8 = new Image();
+
+      imageObj8.onload = function() {
+        c7.drawImage(imageObj8, 651, 655);
+      };
+      imageObj8.src = 'fotosAnaCollage/diariogrande.jpg';
+     var imageObj9 = new Image();
+
+      imageObj9.onload = function() {
+        c18.drawImage(imageObj9,0,819 );
+      };
+      imageObj9.src = 'fotosAnaCollage/ana1941.jpg';
+     var c19 = canvas.getContext('2d');
+      c19.fillStyle='#4c8086';
+      c19.fillRect(0,1019,651,126);
+
+    var imageObj10 = new Image();
+
+      imageObj10.onload = function() {
+        c19.drawImage(imageObj10,0,1145);
+      };
+      imageObj10.src = 'fotosAnaCollage/museo.jpg';
+   var c20 = canvas.getContext('2d');
+      c19.fillStyle='#a89466';
+      c19.fillRect(162,1145,162,164);
+ var c21 = canvas.getContext('2d');
+      c21.fillStyle='#e94b40';
+      c21.fillRect(324,1145,164,164);
+
+    var imageObj11 = new Image();
+
+      imageObj11.onload = function() {
+        c20.drawImage(imageObj11,488,1145);
+      };
+      imageObj11.src = 'fotosAnaCollage/esconditechico.jpg';
+ var c22 = canvas.getContext('2d');
+      c22.fillStyle='#fff';
+      c22.fillRect(650,983,324,327);
+
+    </script>
+  </body>
+</html>
