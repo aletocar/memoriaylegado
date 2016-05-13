@@ -21,7 +21,10 @@
   "build": {
     "app-bundle-id": "org.proyectoshoa.app",
     "app-category-type": "public.app-category.graphics-design",
-    "asar": false
+    "asar": false,
+    "linux": {
+      "compression":"gz"
+    }
     },
   "devDependencies": {
     "electron-builder": "^3.17.1",
