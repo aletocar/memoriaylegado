@@ -4,11 +4,10 @@ dist: trusty
 language: c
 matrix:
   include:
-    - os: linux
-      env: CC=clang CXX=clang++ npm_config_clang=1
-      compiler: clang
-    - os: osx
-
+  - os: linux
+    env: CC=clang CXX=clang++ npm_config_clang=1
+    compiler: clang
+  - os: osx
 env:
   global:
   - secure: atVLiBasdkLKKp4KohO8kDlNqZooZ+oQkmirga+GxTxPt+X8PS/3cuGREnyCXYwV5FFll8me9INhNXMR6gq/OvKKKNIM3Ib307UrxNAIGVF+0YavFS6bIFWyUF3ib0ZThkw4tpLwwvNdrZqy49eSuMxwF+QghIgjNvS40HR6Jpa9LurAWSRqP7k4xggyxsDLGDHlc+ywJSMjAccj7IsaYW17y4FT6Znpgk7hfxqezRi+LLsBOg1g8M9sIqdfJEKTRfrOcHB296EVdXnQd0o/uBPJ096BOZuPgDRuSteBncdbtQOD1w8IKZDtCheT1ijQm/w0pvd1hEGeC6WSVbaRGUkLcqSCTKXeHTE+nFgCnAjCOQnQLXMLxg3VC906E6vK+hs5g4Laq/WePonYQCKswIKzC/+jedtAvJ/kwHvAdOE/982lF1MRDA4p9Yne5wFyK5u5Pf7FvqZSq97i0J5vrsqC1oNkLWJbRW8KPzUsd7DDYbaFTZRS/t2Hl3kj5aeQk+WsJXzNOw7xd2HBa9WHDwSfZOOGw92gSU08MHM3MB2wO7iU7oVDGBnQbI2+el3ifO7C8N1kUBpoJcUMj6XyNy6L1xePdZxHDkVnHc0HfNc0xLC3zSz7b713lrtr5CuN9c711eg8fumXyY6kEbqfTNdhSoDOlqFtbHiaj6gDpRw=
@@ -29,12 +28,12 @@ addons:
     - icnsutils
     - clang-3.7
 before_install:
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install git-lfs; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then git lfs pull; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then curl -L https://github.com/github/git-lfs/releases/download/v1.2.0/git-lfs-linux-amd64-1.2.0.tar.gz | tar -xz; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then git-lfs-1.2.0/git-lfs pull; fi
-
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update ; fi
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install git-lfs; fi
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then git lfs pull; fi
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then curl -L https://github.com/github/git-lfs/releases/download/v1.2.0/git-lfs-linux-amd64-1.2.0.tar.gz
+  | tar -xz; fi
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then git-lfs-1.2.0/git-lfs pull; fi
 install:
 - nvm install 6
 - npm install npm -g
@@ -50,5 +49,9 @@ deploy:
   provider: s3
   access_key_id: AKIAJCLOD6Y2M24JQF4Q
   secret_access_key:
-    secure: f/gqyLoMTUSE4FAIhlEuReslogDbQP0yi2WD/cxJ7atl5jIlA5jcpb2r5HoMzBfV992fGuqIdIbb9NKQK9Dn7UkIt+PT9DJLuxyVehXsEpygdwxm9qUjXsva/UE83tjrKnHZn/LeQ+AbPe1mjSjIpGhm8Ms7pYQCm4yuUv4kFQ+Rzf3qIxzog7AUMEG9yv9/2UH4m/Nx1b2P2M0/VhwpLK3hyfk9SOb5Kf0Mmj2HH4v7jUXbj5wO/9CX4RF4J6hIFfqpL0oJpuxI6NfOuo8VmOTvvem0HsbVoHIXIh6w9JTebxZ0XgdqOHmyn5GZ/JrVKqxBTvDid3N3POpTUJFR8/S/gCMx0kaj8SmwW/QrRUoFUZLpRKAVPjy9U2UEGo9Q0p7OCU3ZTJREAtopM4O9x1yLD7PBKW3fHWRCoUATwdV5S8KOSla+KvN+OxtEVo80AdQ7j/0eNONSpQ/h+rjVo3I1+GzsPcz6Cp4uLzfY1ApVrKdFE7NPvSbZk353/oDOLp/n23KNrhjc9klrvnmPgLkKe5R0Z4/SRgJqQKCLOQsFJ6TIXkTYsWTWX3NEAzqA89sAKjmT6wxqeEV6wx3aV1HCsUoHkE5A8qUU1FlsAJb2DbmR4cHDPX5BhjVYUxE2ghFjm9TThUS0hcr6C13/OHiYXMRE2G0IqttXTOJ1mLI=
+    secure: OcuxbCX/gyAjnrd/Hd4PB1+qRdQzDEgd/1TAD0KxYAiJSRHNkmi73QATOqQGsy7l7tMTDxOxvoTSzX9Juikx9VDso/yBk0IfjInR9K3INZtw4xGfU93ENizNI+0AKSyerdaIFE7eOIYbPKtR+/xsvYbH87bINtYefNyyA6YESL+oki10iHymzdu5uxXHJI2tj+cXEAE8QjW/dYOziG/OoeAiBD5mf+GGX5OO1rtlxGzwHDj8b1JvztfM7X0Z2XNyOb7rB820lRdeWePq2PFZm++LSLlmw0rA2KGkqLe9+O2K9uy5+clxxb7aNeyErG8vwMJPktPKdB2W1uKu8UokDYXZcg04U53axJMBjvkYRAhZ18ykJXefB2/NjgZsrI7NXOSXrr8WTNwoF3rAs/F1wfCGfrJNvJWcyOQwdrWrdcA6aNHyclYJLzg6sl3EWkbMMZzCgIYu+oa1SLFMgMW4Z9xZx13VfyNGoVkqKnwTdtGKKbVzBHOT+/LidrYshG5Z1vpMl0oyXq69rqsfJt98y31fqca8ocPGXgivDwT77W7tU/jqCDteYg0yBItjNjr1vjUm83/er4VYUXPjwuPadnm2Ix9BzZDa0SJb2EJsUvzK6uGBP0hiHP1aRfXzoqZ1BeeRHashU2z4liY6Dy0t9HeIy1io0vItGt31ztUrtZ4=
   bucket: proyectoshoa
+  local-dir: dist
+  acl: public_read
+  on:
+    repo: aletocar/memoriaylegado
