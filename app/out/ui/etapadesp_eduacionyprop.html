@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <title>Educaci&oacute;n y propaganda</title>
+        <meta name="etapadesp_Educación y propaganda" content="Etapa despelegada"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="fonts/stylesheet.css" rel="stylesheet" />
+        <link href="etapa_desplegada_con_collages/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         <link rel="stylesheet" href="css/pushy.css">
+         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+  <link href="Styles/common.css" rel="stylesheet" />
+        <!-- End VideoLightBox.com HEAD section -->
+    <style>
+        #A{
+                z-index: 99;
+
+
+
+
+        }
+        #Cruz{
+                z-index:100;
+               position: absolute;
+               margin-top: -270px;
+             margin-left: 466px;
+             text-decoration: underline;
+            cursor: pointer;
+        }
+
+        }
+        #Cruz:hover {
+            opacity: 0.5;
+        }
+        .ActividadesPopUp{
+            margin-left: 375px;
+             margin-top: 16%;
+            position:absolute;
+
+
+        }
+         .Actividades{
+            margin-bottom: -70px;
+         }
+
+         .Actividad1{
+            margin-left: 817px;
+            margin-top: 70px;
+
+         }
+
+        .Actividad2{
+
+            margin-left: 800px;
+            margin-top: -40px;
+
+        }
+
+        #libro1{
+            margin-left:20px;
+        }
+
+        </style>
+    </head>
+
+<body>
+
+
+ <div id="cont-header">
+
+        <header id="encabezado">
+                <a href="index.html" ><img id="Logo" src="Header/Logo.png"/> </a>
+        </header>
+     </div>
+     <div class="ActividadesPopUp" >
+            <img id="A" src= "Actividades/pensar_educacion.png" style="display:none;">
+
+            <img id="Cruz" src="Actividades/cruz.png" style="display:none;">
+
+
+   </div>
+
+
+         <div class="Intro">
+               <a href="etapa_nazismo_al_poder.html"><img id="imgEtapa" src="Etapa2/header.png"></a>
+        </div>
+        <div id="container">
+                <div class="IntroT">
+                    <b id="fecha">1933 - 1939</b>
+                    <b id="nombreEtapa">Nazismo al poder</b>
+                </div>
+             <div class="Actividades" >
+            <div>
+           <a id="pensar1"><img class="Actividad1"src="Actividades/Pensar.png"></a>
+           </div>
+           
+            <div class="Actividad2">
+                <img  id="pelicula1" >
+                <img id="libro1" >
+            </div>
+        </div>
+
+
+        <div id="Titulo">
+            <b>Educaci&oacute;n y propaganda</b>
+
+        </div>
+        <div id="TextoSup">
+                    <b id="Texto">La educaci&oacute;n y la propaganda fueron dos herramientas fundamentales en la
+                 maquinaria nazi. A trav&eacute;s de ellas se divulgaba la ideolog&iacute;a, se incitaba al odio
+                y a la discriminaci&oacute;n y se formaba a las pr&oacute;ximas generaciones de acuerdo a los
+                intereses nazis.<br></b>
+
+        </div>
+
+            <div id= "ContainerImagenEducacion">
+    </div>
+
+
+    <div id="SigEtapa">
+        <pre id="SiguienteEtapa">  <a href="etapa_nazismo_al_poder.html">      Anterior</a>  |  <a href="etapadesp_boicot_quemalibros_arte.html">Siguiente </a><br><br>    Volver a <a href="etapa_nazismo_al_poder.html" class="colorE2">Nazismo al poder</a></pre>
+    </div>
+    </div>
+<div class="footer">
+  <footer class="info">
+    <img src="Header/footer-logo.png">
+    <div class="info-footer"> 
+      <span>info@proyectoshoa.org</span>
+      <a href="https://www.facebook.com/proyectoshoa" target="_blank"><i class="fa fa-facebook-official social"></i> <span>proyectoshoa</span></a>
+      <a href="https://twitter.com/proyectoshoa" target="_blank"><i class="fa fa-twitter  twitter"></i> <span>proyectoshoa</span></a>
+      <a href="https://www.instagram.com/proyecto_shoa/" target="_blank"><i class="fa fa-instagram instagram"></i> <span>proyecto_shoa</span></a>
+    </div>
+  </footer>
+</div>
+
+<script>
+
+$(document).ready(function(){
+
+$("#MenuIcon").click(function(){
+
+       $("#menu").animate({width:'toggle'},{speed:"slow"},350);
+
+
+  });
+
+ $("#img").hover(function(){
+    $("#img").attr("src","SegundaPag/img_chica_hover.png");
+
+    },
+    function(){
+     $("#img").attr("src","SegundaPag/img_chica.png");
+  });
+
+
+     $("#pensar1").click(function(){
+
+         $("#container").css({ opacity: 0.05  });
+         $("#A").fadeIn("slow");
+         $("#Cruz").fadeIn();
+
+
+
+
+
+  });
+     $("#Cruz").click(function(){
+
+
+         $("#A").fadeOut("slow");
+         $("#Cruz").fadeOut();
+        $("#container").css({ opacity: 1  });
+
+
+
+  });
+
+
+});
+
+</script>
+
+
+ <script src="js/pushy.min.js"></script>
+
+</body>

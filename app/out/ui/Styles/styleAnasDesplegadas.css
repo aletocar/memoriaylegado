@@ -1,0 +1,320 @@
+body{
+    background-color:rgb(36, 36, 36);
+
+    margin: auto;
+    z-index:-30;
+
+}
+a:hover{
+    opacity:0.5;
+}
+.FondoAnaFrank
+{
+    z-index:-10;
+    position:absolute;
+
+}
+html, body{
+	overflow-x: hidden; /* prevents horizontal scroll bars */
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
+	<!--height: 100%; /* fixes focus scrolling in Safari (OS X) */-->
+
+}
+
+
+#container{
+    width: 970px;
+    margin:auto;
+    <!--height: 1943px;-->
+
+
+
+}
+
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    font-size:0;
+    height:0;
+    visibility:hidden;
+}
+.clearfix { display:block; }
+
+#cont-header{
+    width: 100%;
+    background-color:#ffffff;
+    position: fixed;
+    z-index: 99;
+}
+
+header{
+  width:970px;
+  height:100px;
+  margin: 0 auto;
+
+}
+
+
+header #Logo{
+    margin-top:17px;
+    float:left;
+
+
+
+}
+header #TextMenu{
+
+    margin-left: 882px;
+    margin-top: -38px;
+    float: left;
+    font-family: 'museo_sans500';
+
+}
+header #MenuIcon{
+   margin-top: -40px;
+    float: right;
+
+
+}
+.Menu{
+    width:400px;
+    margin: auto;
+    display:none;
+
+}
+
+.Menu li{
+    color:#ffffff;
+    size:20px;
+
+}
+
+.Nombre b{
+
+    font-family: 'museo_sans300';
+    color:  #ffffff;
+    font-size: 45px; /* Approximation due to font substitution */
+    line-height: 0.382;
+}
+
+.Nombre{
+    margin-top:196px;
+    width: 554px;
+    
+
+
+
+}
+
+#btnVolver{
+    position: absolute;
+    margin-top: -30;
+    margin-left: 787px;
+}
+
+#ImagenPrincipal{
+    float:left;
+    margin-top:100px;
+
+}
+#FondoTexto{
+     width: 300px;
+    height: 477px;
+    margin-left: 670;
+    margin-top: 100px;
+   <!-- background-color:  #a33e37;-->
+
+}
+
+
+.etapa1texto{
+    background-color:#4b8086;
+}
+
+.etapa3texto{
+    background-color:#e05c13;
+}
+
+.etapa4recta{
+    background-color:#a89363;
+}
+
+#DescripcionImagen{
+    font-family: 'museo_sans300_italic';
+    color:  #c0c0c0;
+    font-size: 16.12px; /* Approximation due to font substitution */
+    font-style: italic;
+    width: 190px;
+    height: 74px;
+    margin-left:65px;
+}
+
+#ImagenPequena{
+    float:left;
+    margin-top: 100px;
+}
+#Texto{
+    width: 632px;
+    margin-top: 100px;
+    margin-left: 270px;
+    text-align:justify;
+}
+#TextoLargo{
+    width: 920px;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align:justify;
+}
+
+#Titulo{
+    font-family: 'museo_sans500';
+    color:  #c0c0c0;
+    font-size: 40.3px; /* Approximation due to font substitution */
+    line-height: 67px;
+
+}
+
+#text{
+    font-family: 'museo_sans300_italic';
+    color:  #c0c0c0;
+    font-size: 16.12px; /* Approximation due to font substitution */
+    line-height: 24px;
+
+}
+.hechos{
+    font-family: 'museo_sans500';
+    color:  #c0c0c0;
+    font-size: 16.12px; /* Approximation due to font substitution */
+    line-height: 24px;
+}
+
+#DivDescr{
+    width: 190px;
+    height: 73px;
+    margin-top:20px;
+
+}
+
+#Descr{
+    font-family: 'museo_sans300';
+    color:  #c0c0c0;
+    font-size: 16.12px; /* Approximation due to font substitution */
+    font-style: italic;
+
+}
+#Seccion1{
+
+    background-color:  #a89464;
+    width: 970px;
+    height: 4px;
+    margin-top:100px;
+}
+
+#Seccion2{
+
+    background-color:  #a89464;
+    width: 970px;
+    height: 4px;
+
+}
+
+#Explicacion{
+    width: 900px;
+    margin-top: 33px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#Explicacion2{
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#TextoGrande,#Autor{
+    font-family: 'Georgia';
+    color: #ffffff;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 1.186;
+
+}
+
+#Autor{
+    text-align:center;
+}
+
+.Etapa2{
+    margin-top:100px;
+}
+
+.ImagenPrincipal2{
+    float:left;
+}
+
+.ImagenPrincipal3{
+    float:left;
+   <!-- margin-top:100px;-->
+    height: 350px;
+}
+
+
+.ImagenPrincipal4{
+    margin-top:100px;
+    height:350px;
+    float:left;
+}
+
+.ImagenPrincipal5{
+
+    height:350px;
+    float:left;
+}
+
+.imagenP{
+    margin-left:20px;
+}
+.imagenR{
+    margin-left:690px;
+}
+.imagenPequena2{
+    margin-top:20px;
+}
+
+.ImagenesPequenas3{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.ImagenRectangulo{
+    margin-top:20px;
+    position: absolute;
+}
+
+.fechaTexto{
+    font-weight:bold;
+}
+.Video{
+    margin-top:78px;
+}
+
+#video1{
+    margin-left:85px;
+    margin-top: 45px;
+}
+.ImagenesPequenas4{
+    margin-top: 85px;
+}
+#SigEtapa{
+    height: 150px;
+    margin-left: 410px;
+    margin-left: 340;
+}
+#SiguienteEtapa, a{
+    color: #bbb;
+    font-family:'museo_sans500';
+    font-size:16px;
+    text-decoration: none;
+}
+
+
