@@ -5,10 +5,10 @@
   "description": "Aplication to learn from past mistakes and improve our futurue",
   "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
   "private": false,
-    "main": "index.js",
-    "devDependencies": {
-      "open": "0.0.5"
-    },
+  "main": "index.js",
+  "devDependencies": {
+    "open": "0.0.5"
+  },
   "dependencies": {
     "open": "0.0.5"
   }
