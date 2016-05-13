@@ -51,6 +51,8 @@ deploy:
   secret_access_key:
     secure: OcuxbCX/gyAjnrd/Hd4PB1+qRdQzDEgd/1TAD0KxYAiJSRHNkmi73QATOqQGsy7l7tMTDxOxvoTSzX9Juikx9VDso/yBk0IfjInR9K3INZtw4xGfU93ENizNI+0AKSyerdaIFE7eOIYbPKtR+/xsvYbH87bINtYefNyyA6YESL+oki10iHymzdu5uxXHJI2tj+cXEAE8QjW/dYOziG/OoeAiBD5mf+GGX5OO1rtlxGzwHDj8b1JvztfM7X0Z2XNyOb7rB820lRdeWePq2PFZm++LSLlmw0rA2KGkqLe9+O2K9uy5+clxxb7aNeyErG8vwMJPktPKdB2W1uKu8UokDYXZcg04U53axJMBjvkYRAhZ18ykJXefB2/NjgZsrI7NXOSXrr8WTNwoF3rAs/F1wfCGfrJNvJWcyOQwdrWrdcA6aNHyclYJLzg6sl3EWkbMMZzCgIYu+oa1SLFMgMW4Z9xZx13VfyNGoVkqKnwTdtGKKbVzBHOT+/LidrYshG5Z1vpMl0oyXq69rqsfJt98y31fqca8ocPGXgivDwT77W7tU/jqCDteYg0yBItjNjr1vjUm83/er4VYUXPjwuPadnm2Ix9BzZDa0SJb2EJsUvzK6uGBP0hiHP1aRfXzoqZ1BeeRHashU2z4liY6Dy0t9HeIy1io0vItGt31ztUrtZ4=
   bucket: proyectoshoa
+  local-dir: ./dist/
+  upload-dir: release
   acl: public_read
   on:
     repo: aletocar/memoriaylegado
