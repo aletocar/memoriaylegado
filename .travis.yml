@@ -18,6 +18,13 @@ cache:
   - node_modules
   - app/node_modules
   - $HOME/.electron
+
+services:
+  - docker
+
+script:
+  - "docker run -i -v \"${PWD}:/MyProgram\" daald/ubuntu32:trusty /bin/bash -c \"linux32 --32bit i386 /MyProgram/build.sh\""
+
 addons:
   apt:
     sources:
