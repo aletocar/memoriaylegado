@@ -2,3 +2,4 @@ node_modules
 dist
 dist1
 dist2
+npm-debug.log
