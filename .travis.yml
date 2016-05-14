@@ -27,7 +27,7 @@ addons:
     - clang-3.7
 before_install:
 - docker pull daald/ubuntu32:trusty
-- docker run -i -v daald/ubuntu32:trusty /bin/bash -c \"linux32 --32bit i386"
+- docker run -i -v daald/ubuntu32:trusty /bin/bash -c \"linux32 --32bit i386\"
 - curl -L https://github.com/github/git-lfs/releases/download/v1.2.0/git-lfs-linux-amd64-1.2.0.tar.gz | tar -xz
 - git-lfs-1.2.0/git-lfs pull
 
