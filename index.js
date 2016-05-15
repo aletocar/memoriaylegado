@@ -28,12 +28,10 @@ function createWindow () {
 
   //Obtains de contents of what is going on in the main window
   var webContents = mainWindow.webContents
-
-  // webContents.on('new-window', function(event, url){
-  //   event.preventDefault()
-  //   console.log('abre en página nueva: ' + url )
-  //   open(url)
-  // })
+  webContents.on('new-window', function(event, url){
+    event.preventDefault()
+    open(url)
+  })
 }
 
 // This method will be called when Electron has finished

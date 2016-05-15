@@ -1,6 +1,6 @@
 const electron = require('electron')
 
-// const open = require('open')
+const open = require('open')
 // Module to control application life.
 const app = electron.app
 // Module to create native browser window.
@@ -17,6 +17,8 @@ function createWindow () {
   // and load the index.html of the app.
   mainWindow.loadURL('file://' + __dirname + '/ui/home.html')
 
+  // mainWindow.webContents.openDevTools()
+
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
     // Dereference the window object, usually you would store windows
@@ -27,13 +29,12 @@ function createWindow () {
 
 
   //Obtains de contents of what is going on in the main window
-  // var webContents = mainWindow.webContents
+  var webContents = mainWindow.webContents
 
-  // webContents.on('new-window', function(event, url){
-  //   event.preventDefault()
-  //   console.log('abre en página nueva: ' + url )
-  //   open(url)
-  // })
+  webContents.on('new-window', function(event, url){
+    event.preventDefault()
+    open(url)
+  })
 }
 
 // This method will be called when Electron has finished

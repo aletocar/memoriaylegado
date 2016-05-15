@@ -1,7 +1,8 @@
 {
   "name": "MemoriaYLegado",
-  "version": "0.4.1",
-  "description": "",
+  "productName": "Shoa Memoria y Legado",
+  "version": "0.4.4",
+  "description": "Estudia el pasado para construir un futuro mejor",
   "main": "main.js",
   "scripts": {
     "start": "npm install && electron ./app",
@@ -18,20 +19,21 @@
   "bugs": {
     "url": "https://github.com/aletocar/memoriaylegado/issues"
   },
-  "homepage": "https://aletocar.github.io/memoriaylegado",
+  "homepage": "https://shoamemoriaylegado.com",
   "build": {
     "app-bundle-id": "org.proyectoshoa.app",
     "app-category-type": "public.app-category.graphics-design",
     "asar": false,
     "linux": {
-      "compression": "gz"
+      "synopsis": "Recorre los eventos de la segunda guerra mundial para construir un futuro mejor",
+      "vendor": "Proyecto Shoa"
     }
   },
   "directories":{
     "output": "app/dist"
   },
   "devDependencies": {
-    "electron-builder": "^3.17.1",
+    "electron-builder": "^3.23.0",
     "electron-prebuilt": "^1.0.2"
   },
   "dependencies": {
