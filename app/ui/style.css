@@ -350,21 +350,21 @@ margin:auto;
 .clearfix { display:block; }
 
 #index-header{
-    background-image: url('fondo_index.png');
-    text-align: center;
-    vertical-align: center;
-    margin: auto;
-    height: 380px;
+   background-color: #1e4150 ;
+   text-align: center;
+   vertical-align: center;
+   margin: auto;
+   height: 430px;
 
 }
 
 .titleIndex {
-    font-family: 'museo_sans300';
-    color:  #ffffff;
-    font-size: 60px; /* Aproximación debida a la sustitución de la fuente */
-    line-height: 54px; /* Aproximación debida a la sustitución de la fuente */
-    text-align: center;
-    font-weight: lighter;
+   font-family: 'museo_sans300';
+   color:  #ffffff ;
+   font-size: 40px; /* Aproximación debida a la sustitución de la fuente */
+   line-height: 53px; /* Aproximación debida a la sustitución de la fuente */
+   text-align: center;
+   font-weight: 700;
 }
 
 .descriptionIndex {
