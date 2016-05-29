@@ -2,11 +2,12 @@
 #voverlay {
 	
 	/* growing background image */
-	background-image:url(white.png);
+	/*background-image:url(white.png);*/
+	background-color: #000;
 	
 	/* dimensions after the growing animation finishes  */
-	width:640px;
-	height:480px;
+	width:100%;
+	height:100%;
 	
 	/* initially overlay is hidden */
 	display:none;
