@@ -1,13 +1,14 @@
 {
-  "name": "MemoriaYLegado",
-  "version": "0.4.5",
+  "name": "memoria-y-legado",
+  "version": "1.0.0",
   "license": "MIT",
-  "description": "Aplication to learn from past mistakes and improve our futurue",
+  "description": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
   "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
   "private": false,
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://shoamemoriaylegado.com",
+  "productName": "Shoa: Memoria y Legado"
   "devDependencies": {
     "open": "0.0.5"
   },

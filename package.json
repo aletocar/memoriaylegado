@@ -1,8 +1,8 @@
 {
   "name": "MemoriaYLegado",
   "productName": "Shoa Memoria y Legado",
-  "version": "0.4.4",
-  "description": "Estudia el pasado para construir un futuro mejor",
+  "version": "1.0.0",
+  "description": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
   "main": "main.js",
   "scripts": {
     "start": "npm install && electron ./app",
@@ -25,7 +25,7 @@
     "app-category-type": "public.app-category.graphics-design",
     "asar": false,
     "linux": {
-      "synopsis": "Recorre los eventos de la segunda guerra mundial para construir un futuro mejor",
+      "synopsis": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
       "vendor": "Proyecto Shoa"
     }
   },
