@@ -8,7 +8,7 @@
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://shoamemoriaylegado.com",
-  "productName": "Shoa: Memoria y Legado"
+  "productName": "Shoa: Memoria y Legado",
   "devDependencies": {
     "open": "0.0.5"
   },

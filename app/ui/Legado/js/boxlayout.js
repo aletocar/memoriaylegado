@@ -70,6 +70,12 @@ var Boxlayout = (function() {
 
 				$el.removeClass( 'bl-expand-item' );
 
+				var videos = $('video');
+				for(i = 0; i < videos.length; i++)
+				{
+					videos[i].pause();
+				}
+
 				return false;
 
 			} );
