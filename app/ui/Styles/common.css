@@ -240,3 +240,30 @@ header #MenuIcon{
 .height-200 {
 	height: 200px !important;
 }
+
+.button-face {
+	width: 245px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    font-family: 'museo_sans500';
+}
+
+.button-left {
+	margin-left: 55px;
+}
+
+.button-face-container {
+	padding: 20px;
+	text-align: center;
+}
+
+.button-face:hover {
+	opacity:0.5;
+}
+
+.left-image {
+	margin-left: 2px;
+}
